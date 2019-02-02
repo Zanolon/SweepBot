@@ -9,8 +9,6 @@ import math
 f = open("keys.txt", "r")
 key = f.readline().strip()
 serverID= int(f.readline().strip())
-print(key)
-print(serverID)
 TOKEN = key
 
 bot = commands.Bot(command_prefix='!') #Sets up the command prefix
